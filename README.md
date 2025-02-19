@@ -2,15 +2,47 @@
   <img width="250" height="230" src="https://github.com/PIR-PIXR/Certificate-Transparency-Logs/assets/102839948/530caacf-868e-464c-995b-04e995bc02bc">
 </p>
 
-# $q$-TreePIR: Efficient Private Retrieval for Verkle Proofs via Ancestral $q$-ary Tree Coloring
+# *q*TreePIR: Efficient Private Retrieval for Verkle Proofs via Ancestral $q$-ary Tree Coloring
 
 ## Abstract
-The paper introduces innovative privacy mechanisms for enabling light clients to securely retrieve inclusion proof along arbitrary root-to-leaf path in $q$-ary trees, such as Verkle trees. $q$TreePIR, which develops from TreePIR, outperforms the state-of-the-art Probabilistic Batch Codes (PBC) ([Angel et al. IEEE S&P'18](https://doi.ieeecomputersociety.org/10.1109/SP.2018.00062)) in all metrics, achieving $3\times$ lower total storage and $1.5\times$ less communication cost and $1.5$-$2\times$ faster max/total server computation time and client query generation time. $q$TreePIR achieves a complexity of $\mathcal{O}(nh(\log_2 q + \log_2 h))$ in partition the tree in $h$ balance sub-databases. It can efficiently generate balanced sub-databases for a perfect 256-ary tree containing $2^{32}$ leaves in under 30 seconds. Additionally, the $q$TreePIR-Indexing algorithm allocates an arbitrary node's position in the path within its sub-database. With a complexity of $\mathcal{O}(qh^2)$ for this algorithm, it showcases impressive speed by indexing inclusion proof nodes for the ideal 256-ary tree of $2^{32}$ leaves in approximately two milliseconds. Most notably, $q$TreePIR's \textit{polylog}-complexity indexing algorithm is $500\times$ faster than PBC for 256-ary tree of $2^{24}$ leaves.
+The paper introduces innovative privacy mechanisms for enabling light clients to securely retrieve inclusion proof along arbitrary root-to-leaf path in $q$-ary trees, such as Verkle trees. $q$TreePIR, which develops from TreePIR, outperforms the state-of-the-art Probabilistic Batch Codes (PBC) ([Angel et al. IEEE S&P'18](https://doi.ieeecomputersociety.org/10.1109/SP.2018.00062)) in all metrics, achieving $3\times$ lower total storage and $1.5\times$ less communication cost and $1.5-2\times$ faster max/total server computation time and client query generation time. $q$TreePIR achieves a complexity of $\mathcal{O}(nh(\log_2 q + \log_2 h))$ in partition the tree in $h$ balance sub-databases. It can efficiently generate balanced sub-databases for a perfect 256-ary tree containing $2^{32}$ leaves in under 30 seconds. Additionally, the $q$TreePIR-Indexing algorithm allocates an arbitrary node's position in the path within its sub-database. With a complexity of $\mathcal{O}(qh^2)$ for this algorithm, it showcases impressive speed by indexing inclusion proof nodes for the ideal 256-ary tree of $2^{32}$ leaves in approximately two milliseconds. Most notably, *q*TreePIR's *polylog*-complexity indexing algorithm is $500\times$ faster than PBC for 256-ary tree of $2^{24}$ leaves.
 
 ---
 ## Experimental setup
-We ran our experiments on a laptop (Intel® Core™ i9-13900H and 32GiB of system memory) in the Ubuntu 22.04 LTS environment. For each tree size, we ran the batch-PIR protocols for 10 random Merkle proofs and recorded the averages. 
-To build Merkle trees of $2^{10} - 2^{20}$ leaves, we fetched $2^{20}$ entries from Google's [Xenon2024](https://github.com/PIR-PIXR/Certificate-Transparency-Logs), each of which comprises of an entry number, a timestamp, and a certificate, and applied SHA-256 on the certificates to produce tree leaves. Consequently, each tree node has size $32$ bytes. To evaluate TreePIR's performance for larger trees ($n = 2^{22},\ldots,2^{36})$, we use random hashes to avoid excessive hashing overheads. We did not consider PBC beyond $h = 24$ as its index became too large. We used the existing C++ implementations of [PBC](https://github.com/newPIR/TreePIR/tree/main/PBC) by Mughees-Ren (after fixing some minor errors), [Spiral](https://github.com/menonsamir/spiral), [VBPIR](https://github.com/mhmughees/vectorized_batchpir), and [PIRANA](https://github.com/zju-abclab/PIRANA).
+Our experiments ran within Ubuntu 22.04 LTS environments. Our local machine (Intel® Core™ i5-1035G1 CPU @ 1.00GHz×8, 15GB System memory) served as the infrastructure for running the PIR Client, Orchestrator, ATC, *q*TreePIR-Indexing, and PBC (refer to Figure 1). For PIR Servers, we ran our experiments using up to 36 PIR servers on the Amazon m5.8xlarge instance (Intel® Xeon® Platinum 8175M CPU @ 2.50GHz, 32 vCPUs, 128GB System memory) that cost around $\$1.92$ per hour, using only one core. In Table 1}, we used until $36$ instances because, with $h = 24$, PBC generates $\lceil 1.5 \times h \rceil = 36$ databases, each of server processed a PIR database in parallel while our $q$TreePIR employed only $24$ servers. We choose an arbitrary C-PIR such as SealPIR \cite{angel2018} for our baseline implementations. In our experiments, the Verkle tree nodes are 32 bytes in size. Each experiment was repeated ten times for each tree's size in the Table \ref{table:expTrees}, changing the number of leaves ($n$) from $2^{10}$ to $2^{24}$ and the number of children ($q$) in the set $\{2, 16, 128, 256\}$. The average values were then calculated. We also utilize the HTTP/2 protocol in conjunction with gRPC version 35.0.0 \cite{gRPC}, developed by Google, to connect client and servers in the parallel PIR phase.
+
+
+<p align="center">
+  <img width="600" height="350" src="https://github.com/user-attachments/assets/f56fb51e-0672-44ee-a574-f2cd6f764828">
+</p>
+
+**Figure 1:** Process Architecture.
+
+
+**Table 1**: Experimental Evaluation
+
+| **n**  | $2^{10}$ | $2^{11}$ | $2^{12}$ | $2^{13}$ | $2^{14}$ | $2^{15}$ | $2^{16}$ | $2^{17}$ | $2^{18}$ | $2^{19}$ | $2^{20}$ | $2^{21}$ | $2^{22}$ | $2^{23}$ | $2^{24}$ |
+|--------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
+| **q = 2** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **h**  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
+| $m_{qTreePIR}$ | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 |
+| $m_{PBC}$ | 15 | 17 | 18 | 20 | 21 | 23 | 24 | 26 | 27 | 29 | 30 | 32 | 33 | 35 | 36 |
+
+| **q = 16** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **h**  |  |  | 3 |  |  |  | 4 |  |  |  | 5 |  |  |  | 6 |
+| $m_{qTreePIR}$ |  |  | 3 |  |  |  | 4 |  |  |  | 5 |  |  |  | 6 |
+| $m_{PBC}$ |  |  | 5 |  |  |  | 6 |  |  |  | 8 |  |  |  | 9 |
+
+| **q = 128** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **h**  |  |  |  |  |  | 2 |  |  |  |  |  | 3 |  |  |  |
+| $m_{qTreePIR}$ |  |  |  |  |  | 2 |  |  |  |  |  | 3 |  |  |  |
+| $m_{PBC}$ |  |  |  |  |  | 3 |  |  |  |  |  | 5 |  |  |  |
+
+| **q = 256** |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| **h**  |  |  |  |  |  |  |  | 2 |  |  |  |  |  | 3 |  |
+| $m_{qTreePIR}$ |  |  |  |  |  |  |  | 2 |  |  |  |  |  | 3 |  |
+| $m_{PBC}$ |  |  |  |  |  |  |  | 3 |  |  |  |  |  | 5 |  |
+
 
 ---
 ### Dataset
