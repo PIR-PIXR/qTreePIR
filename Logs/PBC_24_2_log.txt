@@ -1,0 +1,15 @@
+Starting Server
+File found - using premade tree!
+Number of Leaves: 16777216 (height: 24, children: 2) generated.
+Raw_DB_populated: 15712140 (us)
+Cuckoo_hash: 3820949616 (us)
+Bucket_balancing: 4180 (ns)
+Buckets_saved: 15827628000 (ms)
+Batch_Size: 24
+Number_of_Entries: 33554430
+Entry_Size: 32 (bytes)
+Tree_Initialization: 18 (us)
+PBC_db_total_time: 19664658 (ms)
+Database_Size: 1073741784 (bytes)
+Map_Size: 4702682769 (bytes)
+Approximate_Ratio: 4.37971

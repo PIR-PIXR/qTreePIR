@@ -1,0 +1,14 @@
+Starting Server
+Number of Leaves: 262144 (height: 18, children: 2) generated.
+Raw_DB_populated: 175280 (us)
+Cuckoo_hash: 1999139 (us)
+Bucket_balancing: 670 (ns)
+Buckets_saved: 1078000 (ms)
+Batch_Size: 18
+Number_of_Entries: 524286
+Entry_Size: 32 (bytes)
+Tree_Initialization: 1475108 (us)
+PBC_db_total_time: 3252 (ms)
+Database_Size: 16777176 (bytes)
+Map_Size: 73405126 (bytes)
+Approximate_Ratio: 4.3753
