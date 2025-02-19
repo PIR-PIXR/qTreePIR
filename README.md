@@ -15,8 +15,7 @@ Our experiments ran within Ubuntu 22.04 LTS environments. Our local machine (Int
 <p align="center">
   <img width="600" height="350" src="https://github.com/user-attachments/assets/f56fb51e-0672-44ee-a574-f2cd6f764828">
 </p>
-
-**Figure 1:** Process Architecture.
+<p align="center"><b>Figure 1: Process Architecture</b></p>
 
 
 **Table 1**: Experimental Evaluation
