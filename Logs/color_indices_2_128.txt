@@ -1,0 +1,30 @@
+TX_index: 13279
+colorA_2_128.json; NodeID: 13408; Index: 5150
+colorB_2_128.json; NodeID: 105; Index: 39
+TX_index: 2524
+colorA_2_128.json; NodeID: 21; Index: 19
+colorB_2_128.json; NodeID: 2653; Index: 2587
+TX_index: 11311
+colorA_2_128.json; NodeID: 11440; Index: 3182
+colorB_2_128.json; NodeID: 90; Index: 24
+TX_index: 586
+colorA_2_128.json; NodeID: 6; Index: 4
+colorB_2_128.json; NodeID: 715; Index: 649
+TX_index: 318
+colorA_2_128.json; NodeID: 4; Index: 2
+colorB_2_128.json; NodeID: 447; Index: 381
+TX_index: 10933
+colorA_2_128.json; NodeID: 11062; Index: 2804
+colorB_2_128.json; NodeID: 87; Index: 21
+TX_index: 11416
+colorA_2_128.json; NodeID: 11545; Index: 3287
+colorB_2_128.json; NodeID: 91; Index: 25
+TX_index: 717
+colorA_2_128.json; NodeID: 7; Index: 5
+colorB_2_128.json; NodeID: 846; Index: 780
+TX_index: 11553
+colorA_2_128.json; NodeID: 11682; Index: 3424
+colorB_2_128.json; NodeID: 92; Index: 26
+TX_index: 6453
+colorA_2_128.json; NodeID: 52; Index: 50
+colorB_2_128.json; NodeID: 6582; Index: 6516

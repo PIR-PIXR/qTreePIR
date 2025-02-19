@@ -1,0 +1,40 @@
+TX_index: 3152761
+colorA_3_256.json; NodeID: 50; Index: 48
+colorB_3_256.json; NodeID: 3218554; Index: 3140691
+colorC_3_256.json; NodeID: 12573; Index: 24555
+TX_index: 12372727
+colorA_3_256.json; NodeID: 48588; Index: 3360141
+colorB_3_256.json; NodeID: 190; Index: 102
+colorC_3_256.json; NodeID: 12438520; Index: 3413811
+TX_index: 10553275
+colorA_3_256.json; NodeID: 41481; Index: 2467293
+colorB_3_256.json; NodeID: 163; Index: 75
+colorC_3_256.json; NodeID: 10619068; Index: 2513252
+TX_index: 2079750
+colorA_3_256.json; NodeID: 33; Index: 31
+colorB_3_256.json; NodeID: 2145543; Index: 2072015
+colorC_3_256.json; NodeID: 8382; Index: 16029
+TX_index: 8136080
+colorA_3_256.json; NodeID: 32039; Index: 1250171
+colorB_3_256.json; NodeID: 126; Index: 38
+colorC_3_256.json; NodeID: 8201873; Index: 1303737
+TX_index: 647171
+colorA_3_256.json; NodeID: 11; Index: 9
+colorB_3_256.json; NodeID: 712964; Index: 645046
+colorC_3_256.json; NodeID: 2786; Index: 4823
+TX_index: 13332284
+colorA_3_256.json; NodeID: 13398077; Index: 3885935
+colorB_3_256.json; NodeID: 205; Index: 117
+colorC_3_256.json; NodeID: 52337; Index: 3884474
+TX_index: 12453049
+colorA_3_256.json; NodeID: 12518842; Index: 3427705
+colorB_3_256.json; NodeID: 192; Index: 104
+colorC_3_256.json; NodeID: 48902; Index: 3460034
+TX_index: 10248891
+colorA_3_256.json; NodeID: 40292; Index: 2302904
+colorB_3_256.json; NodeID: 158; Index: 70
+colorC_3_256.json; NodeID: 10314684; Index: 2372068
+TX_index: 5610446
+colorA_3_256.json; NodeID: 87; Index: 85
+colorB_3_256.json; NodeID: 5676239; Index: 5588941
+colorC_3_256.json; NodeID: 22173; Index: 43590
