@@ -1,0 +1,60 @@
+TX_index: 1651276
+PBC1_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC2_3_128.json; NodeID: 102; index: 67
+PBC3_3_128.json; NodeID: 13030; index: 7872
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: 1667789; index: 1000076
+TX_index: 436282
+PBC1_3_128.json; NodeID: 452795; index: 271731
+PBC2_3_128.json; NodeID: 28; index: 20
+PBC3_3_128.json; NodeID: 3538; index: 2115
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: -1; index: 18446744073709551615
+TX_index: 289961
+PBC1_3_128.json; NodeID: 2395; index: 1417
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC4_3_128.json; NodeID: 19; index: 10
+PBC5_3_128.json; NodeID: 306474; index: 183814
+TX_index: 799307
+PBC1_3_128.json; NodeID: 50; index: 29
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: 815820; index: 489540
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: 6374; index: 3835
+TX_index: 249461
+PBC1_3_128.json; NodeID: 265974; index: 159410
+PBC2_3_128.json; NodeID: 2078; index: 1231
+PBC3_3_128.json; NodeID: 17; index: 7
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: -1; index: 18446744073709551615
+TX_index: 1741576
+PBC1_3_128.json; NodeID: 13736; index: 8213
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: 1758089; index: 1054980
+PBC4_3_128.json; NodeID: 108; index: 68
+PBC5_3_128.json; NodeID: -1; index: 18446744073709551615
+TX_index: 1539468
+PBC1_3_128.json; NodeID: 12157; index: 7266
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: 95; index: 46
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: 1555981; index: 933060
+TX_index: 839756
+PBC1_3_128.json; NodeID: 856269; index: 513715
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: 6690; index: 4033
+PBC4_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC5_3_128.json; NodeID: 53; index: 30
+TX_index: 592895
+PBC1_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC2_3_128.json; NodeID: 38; index: 29
+PBC3_3_128.json; NodeID: 609408; index: 365434
+PBC4_3_128.json; NodeID: 4761; index: 2862
+PBC5_3_128.json; NodeID: -1; index: 18446744073709551615
+TX_index: 539472
+PBC1_3_128.json; NodeID: 34; index: 17
+PBC2_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC3_3_128.json; NodeID: -1; index: 18446744073709551615
+PBC4_3_128.json; NodeID: 4344; index: 2615
+PBC5_3_128.json; NodeID: 555985; index: 333697

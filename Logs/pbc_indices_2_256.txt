@@ -1,0 +1,40 @@
+TX_index: 27473
+PBC1_2_256.json; NodeID: -1; index: 18446744073709551615
+PBC2_2_256.json; NodeID: 27730; index: 27728
+PBC3_2_256.json; NodeID: 109; index: 107
+TX_index: 61615
+PBC1_2_256.json; NodeID: 61872; index: 61870
+PBC2_2_256.json; NodeID: 242; index: 240
+PBC3_2_256.json; NodeID: -1; index: 18446744073709551615
+TX_index: 24221
+PBC1_2_256.json; NodeID: 24478; index: 24476
+PBC2_2_256.json; NodeID: 96; index: 94
+PBC3_2_256.json; NodeID: -1; index: 18446744073709551615
+TX_index: 19082
+PBC1_2_256.json; NodeID: 76; index: 74
+PBC2_2_256.json; NodeID: -1; index: 18446744073709551615
+PBC3_2_256.json; NodeID: 19339; index: 19337
+TX_index: 21530
+PBC1_2_256.json; NodeID: -1; index: 18446744073709551615
+PBC2_2_256.json; NodeID: 21787; index: 21785
+PBC3_2_256.json; NodeID: 86; index: 84
+TX_index: 65326
+PBC1_2_256.json; NodeID: 257; index: 255
+PBC2_2_256.json; NodeID: 65583; index: 65581
+PBC3_2_256.json; NodeID: -1; index: 18446744073709551615
+TX_index: 19396
+PBC1_2_256.json; NodeID: 77; index: 75
+PBC2_2_256.json; NodeID: 19653; index: 19651
+PBC3_2_256.json; NodeID: -1; index: 18446744073709551615
+TX_index: 32366
+PBC1_2_256.json; NodeID: 128; index: 126
+PBC2_2_256.json; NodeID: 32623; index: 32621
+PBC3_2_256.json; NodeID: -1; index: 18446744073709551615
+TX_index: 49570
+PBC1_2_256.json; NodeID: -1; index: 18446744073709551615
+PBC2_2_256.json; NodeID: 195; index: 193
+PBC3_2_256.json; NodeID: 49827; index: 49825
+TX_index: 16417
+PBC1_2_256.json; NodeID: 16674; index: 16672
+PBC2_2_256.json; NodeID: -1; index: 18446744073709551615
+PBC3_2_256.json; NodeID: 66; index: 64

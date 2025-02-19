@@ -1,0 +1,70 @@
+TX_index: 37791
+PBC1_4_16.json; NodeID: 42160; index: 21196
+PBC2_4_16.json; NodeID: 165; index: 80
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: 11; index: 5
+PBC5_4_16.json; NodeID: 2635; index: 1326
+PBC6_4_16.json; NodeID: -1; index: 18446744073709551615
+TX_index: 7589
+PBC1_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC2_4_16.json; NodeID: 748; index: 400
+PBC3_4_16.json; NodeID: 47; index: 26
+PBC4_4_16.json; NodeID: 11958; index: 5951
+PBC5_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC6_4_16.json; NodeID: 3; index: 1
+TX_index: 42359
+PBC1_4_16.json; NodeID: 46728; index: 23487
+PBC2_4_16.json; NodeID: 183; index: 93
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: 12; index: 6
+PBC5_4_16.json; NodeID: 2921; index: 1466
+PBC6_4_16.json; NodeID: -1; index: 18446744073709551615
+TX_index: 52171
+PBC1_4_16.json; NodeID: 3534; index: 1798
+PBC2_4_16.json; NodeID: 14; index: 7
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: 221; index: 113
+PBC5_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC6_4_16.json; NodeID: 56540; index: 28073
+TX_index: 25262
+PBC1_4_16.json; NodeID: 8; index: 1
+PBC2_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC3_4_16.json; NodeID: 116; index: 67
+PBC4_4_16.json; NodeID: 1852; index: 935
+PBC5_4_16.json; NodeID: 29631; index: 14858
+PBC6_4_16.json; NodeID: -1; index: 18446744073709551615
+TX_index: 36236
+PBC1_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC2_4_16.json; NodeID: 159; index: 77
+PBC3_4_16.json; NodeID: 2538; index: 1256
+PBC4_4_16.json; NodeID: 10; index: 4
+PBC5_4_16.json; NodeID: 40605; index: 20386
+PBC6_4_16.json; NodeID: -1; index: 18446744073709551615
+TX_index: 1868
+PBC1_4_16.json; NodeID: 25; index: 5
+PBC2_4_16.json; NodeID: 390; index: 213
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: 6237; index: 3154
+PBC5_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC6_4_16.json; NodeID: 2; index: 0
+TX_index: 58665
+PBC1_4_16.json; NodeID: 16; index: 2
+PBC2_4_16.json; NodeID: 247; index: 136
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC5_4_16.json; NodeID: 3940; index: 1964
+PBC6_4_16.json; NodeID: 63034; index: 31290
+TX_index: 37529
+PBC1_4_16.json; NodeID: 41898; index: 21065
+PBC2_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC3_4_16.json; NodeID: 2619; index: 1301
+PBC4_4_16.json; NodeID: 11; index: 5
+PBC5_4_16.json; NodeID: 164; index: 79
+PBC6_4_16.json; NodeID: -1; index: 18446744073709551615
+TX_index: 1542
+PBC1_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC2_4_16.json; NodeID: 5911; index: 2929
+PBC3_4_16.json; NodeID: -1; index: 18446744073709551615
+PBC4_4_16.json; NodeID: 370; index: 187
+PBC5_4_16.json; NodeID: 24; index: 13
+PBC6_4_16.json; NodeID: 2; index: 0
