@@ -18,7 +18,7 @@ Our experiments ran within Ubuntu 22.04 LTS environments. Our local machine (Int
 <p align="center"><b>Figure 1: Process Architecture</b></p>
 
 
-**Table 1**: Experimental Evaluation
+**Table 1**: A comprehensive experimental evaluation across varying $q$-ary tree sizes (from $2^{10}$ to $2^{24}$ leaves ($n$)), children numbers (from $2$ to $256$ ($q$)), and tree heights ($h$) corresponding with number of PIR servers are required to handle concurrent client queries.
 
 | **n**  | $2^{10}$ | $2^{11}$ | $2^{12}$ | $2^{13}$ | $2^{14}$ | $2^{15}$ | $2^{16}$ | $2^{17}$ | $2^{18}$ | $2^{19}$ | $2^{20}$ | $2^{21}$ | $2^{22}$ | $2^{23}$ | $2^{24}$ |
 |--------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
