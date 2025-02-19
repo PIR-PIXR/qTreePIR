@@ -109,7 +109,7 @@ Our experiments ran within Ubuntu 22.04 LTS environments. Our local machine (Int
   #### Plotting
       $ cd Logs/figures
       $ python3 figures.py
-  All the figures will be created the same as in the report.
+  All the figures will be created the same as in the paper.
   
 ---
 ## ACKNOWLEDGMENTS 
