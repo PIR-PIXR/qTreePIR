@@ -119,5 +119,3 @@ This work was supported by the Australian Research Council through the Discovery
 ## REFERENCES
 
 [[SealPIR+PBC](https://doi.ieeecomputersociety.org/10.1109/SP.2018.00062)] Angel, S., Chen, H., Laine, K., & Setty, S. (2018, May). PIR with compressed queries and amortized query processing. In 2018 IEEE symposium on security and privacy (SP) (pp. 962-979). [GitHub](https://github.com/microsoft/SealPIR).
-
-[[VBPIR](https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.10179329)] Mughees, M. H., & Ren, L. (2023, May). Vectorized batch private information retrieval. In 2023 IEEE Symposium on Security and Privacy (SP) (pp. 437-452). [GitHub](https://github.com/mhmughees/vectorized_batchpir).
